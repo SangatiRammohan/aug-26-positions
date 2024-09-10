@@ -1,0 +1,66 @@
+header{
+    background-color: blueviolet;
+padding: 20px;
+    color: white;
+    position: fixed;
+   width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+img{
+width: 200px;
+height: 200px;
+}
+.pic1{
+    position: absolute;
+    top: 10%;
+    left: 20px;   z-index: -1; 
+}
+.pic2{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: -1;
+}
+.pic3{
+    position: absolute;
+    top: 10%;
+    right: 20px; z-index: -1;
+}
+.pic4{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    z-index: -1;
+}
+.pic5{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    border-radius: 10px;
+}
+.pic6{
+    position: absolute;
+    top: 80%;
+    left: 20px;
+}
+.pic7{
+    position: absolute;
+    top: 80%;
+    right: 20px;
+}
+.pic8{
+    position: absolute;
+    top: 110%;
+    left: 20px;
+}
+.pic9{
+    position: absolute;
+    top: 110%;
+    right: 20px;
+
+}
